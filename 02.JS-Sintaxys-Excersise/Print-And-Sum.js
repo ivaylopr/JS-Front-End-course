@@ -1,0 +1,14 @@
+function numbersAndSum(start,end){
+
+    let sum=0;
+    let output="";
+
+    for (let index = start; index <= end; index++) {
+        output+=`${index} `;
+        sum+=index;
+    }
+    console.log(`${output}`);
+    console.log(`Sum: ${sum}`);
+}
+
+numbersAndSum(5,10);

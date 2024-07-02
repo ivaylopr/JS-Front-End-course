@@ -1,4 +1,4 @@
-function(age){
+function ages(age){
     if(age<0){
         console.log(`out of bounds`);
     } else{
