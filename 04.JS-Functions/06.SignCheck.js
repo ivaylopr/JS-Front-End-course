@@ -1,3 +1,9 @@
 function signCheck(numOne, numTwo, numThree){
-    const multiply=(a,b)
+    let multiply =(a,b)=>a*b;
+    let product = multiply(numOne,multiply(numTwo,numThree));
+    const result=product>=0 ? "Positive" : "Negative";
+    console.log(result);
 }
+
+
+signCheck(-6,-12,14)
