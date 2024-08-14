@@ -1,3 +1,5 @@
 function solve() {
-   //TODO...
+   //attach event for add product
+
+
 }
